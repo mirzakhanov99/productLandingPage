@@ -1,0 +1,139 @@
+body{
+  font-family: 'Quicksand', sans-serif; 
+}
+nav{
+  position: fixed;
+  top:0;
+  left: 0;
+  background-color: white;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+.header-img{
+  width: 8em;
+  border: 3px solid #26de81;
+  border-radius: 50%;
+  cursor: pointer;
+  align-self: flex-start;
+  animation-name: header-img;
+  animation-duration: 1s;
+}
+@keyframes header-img{
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.nav-link{
+  text-decoration: none;
+  color: #26de81;
+}
+li{
+  display: inline-block;
+  list-style: none;
+}
+#li{
+  border: 2px solid #26de81;
+  border-radius: 20px;
+  width: 8em;
+  padding: 5px;
+  text-align: center;
+  margin: 30px 30px 0 50px ;
+  cursor: pointer;
+}
+
+h1{
+  color: #26de81
+}
+.input{
+  width: 500px;
+  height: 30px;
+  border: 2px solid #26de81;
+  border-radius: 20px;
+}
+#submit{
+  width: 510px;
+  height: 35px;
+  border: none;
+  border-radius: 20px;
+  background: #05c46b;
+  font-family: 'Quicksand', sans-serif; 
+  color: white;
+  cursor: pointer;
+  margin: 5px
+}
+#form-div{
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#How-it-works{
+  text-align: center;
+  margin-top: 50px;
+}
+#box{
+  color: #27ae60;
+  padding-left: 15em;
+}
+
+
+.h3{
+  background: #26de81;
+  color: white;
+}
+#pricing-box{
+  text-align: center;
+  width: 300px;
+  border: 2px solid #55efc4;
+  padding: 0 0 10px 0;
+}
+#pr-li{
+  padding-right: 50px;
+  position: relative;
+}
+button{
+  border: none;
+  border-radius: 20px;
+  width: 200px;
+  height: 40px; 
+  color: white;
+  background:#26de81;
+  cursor: pointer;
+}
+button:hover{
+  background: #74b9ff;
+  transition: background-color 1s;
+  transform: scale(1.1); 
+}
+#pricing{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+footer{
+  text-align: right;
+  background: #ffffff;
+  padding: 20px
+}
+a{
+  text-decoration: none;
+  color: #26de81;
+}
+#footer{
+  padding: 0 10px 0 10px
+}
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+
+.div-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
